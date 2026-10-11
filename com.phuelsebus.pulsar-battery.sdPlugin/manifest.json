@@ -1,0 +1,25 @@
+{
+  "UUID": "com.phuelsebus.pulsar-battery",
+  "SDKVersion": 2,
+  "Name": "Pulsar Battery",
+  "Version": "1.0.0.0",
+  "Author": "phuelsebus",
+  "Description": "Shows the battery level of a Pulsar wireless mouse (e.g. X3 Superlight) on a key.",
+  "Icon": "imgs/plugin",
+  "CodePath": "bin/plugin.js",
+  "Category": "Pulsar Battery",
+  "CategoryIcon": "imgs/plugin",
+  "Nodejs": { "Version": "20", "Debug": "disabled" },
+  "OS": [{ "Platform": "windows", "MinimumVersion": "10" }],
+  "Software": { "MinimumVersion": "6.4" },
+  "Actions": [
+    {
+      "UUID": "com.phuelsebus.pulsar-battery.status",
+      "Name": "Battery",
+      "Tooltip": "Battery level of your Pulsar mouse. Press the key to refresh.",
+      "Icon": "imgs/action",
+      "Controllers": ["Keypad"],
+      "States": [{ "Image": "imgs/key", "ShowTitle": false }]
+    }
+  ]
+}

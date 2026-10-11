@@ -1,0 +1,10 @@
+{
+  "name": "com.phuelsebus.pulsar-battery.sdplugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stream Deck plugin showing the battery level of a Pulsar wireless mouse",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
